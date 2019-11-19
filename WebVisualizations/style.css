@@ -1,6 +1,12 @@
 
 #summary-front {padding: 50px;}
 
-#summary-front .row .vis .jumbotron .vis-figs {padding: 30px;}
 
 .vis-figs {padding: 4px;}
+
+.navbar-brand {background-color: rgb(21, 81, 88);
+            position: fixed Left;}
+
+.move-buttons {justify-items: right;
+}
+
