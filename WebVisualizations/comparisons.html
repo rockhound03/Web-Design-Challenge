@@ -13,7 +13,7 @@
     </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
         <a class="navbar-brand" href="#">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,12 +51,43 @@
         </div>
       </nav>
 
-    <div class="container" id="summary-front">
+    <div class="container" id="summary-front" class="bdg-label">
+        <div class="row" class="bdg-label">
+            <div class="col-md-8 col-md-offset-0" class="visual-1" class="bdg-label">
+                <div class="jumbotron">
+                <h2 class="summary-head">Comparison: Latitude vs X</h2>
+                <a>Click on <a class="badge badge-danger">badge link</a> over a plot for in depth analysis.</a>
+                </div>
+            </div>
+        </div>
         <div class="row">
                 <div class="col-md-6 col-md-offset-0" class="visual-1">
-                        <img src="Resources/assets/images/Fig4.png" height="400px" width="600px" alt="plot_wind">
+                    <div class="jumbotron">
+                    <a href="fig_1_visual.html" class="badge badge-danger" class="comp-links">Latitude vs Temperature</a>
+                    <img src="Resources/assets/images/Fig1.png" height="300px" width="450px" alt="plot_temp" class="summary-pics">
+                    </div>
                 </div>
-        </div> 
+                <div class="col-md-6 col-md-offset-4" class="visual-1">
+                    <div class="jumbotron">
+                        <a href="fig_2_visual.html" class="badge badge-danger" class="comp-links">Latitude vs Humidity</a>
+                  <img src="Resources/assets/images/Fig2.png" height="300px" width="450px" alt="plot_humid" class="summary-pics">
+                  </div>
+                </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-0" class="visual-1">
+              <div class="jumbotron">
+                  <a href="fig_3_visual.html" class="badge badge-danger" class="comp-links">Latitude vs Cloudiness</a>
+                  <img src="Resources/assets/images/Fig3.png" height="300px" width="450px" alt="plot_cloud" class="summary-pics">
+                  </div>
+          </div>
+          <div class="col-md-6 col-md-offset-4" class="visual-1">
+              <div class="jumbotron">
+                  <a href="fig_1_visual.html" class="badge badge-danger" class="comp-links">Latitude vs Wind</a>
+            <img src="Resources/assets/images/Fig4.png" height="300px" width="450px" alt="plot_wind" class="summary-pics">
+            </div>
+          </div>
+  </div> 
     </div>
   </body>
 </html>

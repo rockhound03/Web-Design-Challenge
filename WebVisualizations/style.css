@@ -4,9 +4,24 @@
 
 .vis-figs {padding: 4px;}
 
+.bg-custom {background-color: #092727;}
+
+.bdg-label {color:white}
+
 .navbar-brand {background-color: rgb(21, 81, 88);
             position: fixed Left;}
 
-.move-buttons {justify-items: right;
-}
+.move-buttons {justify-items: right;}
 
+.summary-pics {padding: 20px;}
+
+.comp-links {font-size: medium;}
+
+
+@media (max-width: 900px) {
+    .navbar-brand {background-color: #092727;}
+
+    .bg-custom {background-color: rgb(21, 81, 88);}
+
+    
+}
